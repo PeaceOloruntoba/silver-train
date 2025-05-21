@@ -52,8 +52,8 @@ router.post("/create-account-link", async (req, res) => {
 
     res.status(200).json({ url: accountLink.url });
   } catch (err) {
-    console.error("Error creating Stripe Account Link:", err.message);
-    res.status(500).json({ error: err.message });
+    console.error("Error creating Stripe Account Link:", err);
+    res.status(500).json({ error: err });
   }
 });
 
