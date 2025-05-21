@@ -1,0 +1,32 @@
+{
+  "name": "silver-train",
+  "version": "1.0.0",
+  "description": "just backend",
+  "keywords": [
+    "backend",
+    "server",
+    "coding",
+    "opensource"
+  ],
+  "homepage": "https://github.com/PeaceOloruntoba/silver-train#readme",
+  "bugs": {
+    "url": "https://github.com/PeaceOloruntoba/silver-train/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeaceOloruntoba/silver-train.git"
+  },
+  "license": "MIT",
+  "author": "Peace Oloruntoba (+2348166846226)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^14.18.0",
+    "firebase-admin": "^12.0.0",
+    "cors": "^2.8.5"
+  }
+}
