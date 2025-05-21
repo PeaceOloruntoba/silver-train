@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Raw body required only for webhook
-app.use("/webhook", paymentsRoutes);
+app.use("/miet-app", paymentsRoutes);
 app.use("/api/miet-app/payments", paymentsRoutes);
 
 app.listen(PORT, () => {
